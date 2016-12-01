@@ -1,4 +1,4 @@
-package br.com.sam.sistemacad.util;
+package br.ucb.sistemacad.util;
 
 
 import java.io.IOException;
@@ -12,7 +12,7 @@ import javax.servlet.ServletResponse;
 
 import org.hibernate.SessionFactory;
 
-import br.com.sam.sistemacad.HibernateUtil;
+import br.ucb.sistemacad.HibernateUtil;
 
 public class ConexaoHibernateFilter implements Filter{
 	

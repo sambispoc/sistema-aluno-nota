@@ -1,4 +1,4 @@
-package br.com.sam.sistemacad.aluno;
+package br.ucb.sistemacad.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -13,6 +13,15 @@ public class Aluno {
 	@GeneratedValue
 	private Integer mat_aluno;
 	private String nome_aluno;
+	
+	public Aluno(){
+		
+	}
+	
+	public Aluno(String nome_aluno) {
+		super();
+		this.nome_aluno = nome_aluno;
+	}
 	
 	public Integer getMat_aluno() {
 		return mat_aluno;

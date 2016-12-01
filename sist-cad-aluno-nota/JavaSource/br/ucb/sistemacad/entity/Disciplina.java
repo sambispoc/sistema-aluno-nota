@@ -1,4 +1,4 @@
-package br.com.sam.sistemacad.disciplina;
+package br.ucb.sistemacad.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

@@ -1,13 +1,10 @@
-package br.com.sam.sistemacad.nota;
+package br.ucb.sistemacad.entity;
 
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 import javax.persistence.Entity;
-
-import br.com.sam.sistemacad.aluno.Aluno;
-import br.com.sam.sistemacad.disciplina.Disciplina;
 
 
 @Entity

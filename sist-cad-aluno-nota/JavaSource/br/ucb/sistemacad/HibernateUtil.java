@@ -1,4 +1,4 @@
-package br.com.sam.sistemacad;
+package br.ucb.sistemacad;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
